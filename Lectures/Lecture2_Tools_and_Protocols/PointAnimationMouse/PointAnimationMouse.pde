@@ -21,7 +21,7 @@ void setup(){
 
 void draw(){ 
   background(255,255,255);
-  p1.move(mouseX,mouseY);
+  p1.move(mouseX,mouseY); //defines offset as position of mouse
   p1.plot();
   p2.move(mouseX,mouseX);
   p2.plot();

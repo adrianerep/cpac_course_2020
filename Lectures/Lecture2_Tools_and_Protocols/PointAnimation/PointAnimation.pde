@@ -21,7 +21,7 @@ void setup(){
 
 
 void draw(){ 
-  background(255,255,255);
+  background(255,255,255); //redraws background to "clear frame"
   p1.move(offset,offset+1);
   p1.plot();
   p2.plot();

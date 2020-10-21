@@ -1,7 +1,7 @@
 
 import processing.sound.*;
-Amplitude amp;
-AudioIn in;
+Amplitude amp; //want to extract amp in real time
+AudioIn in; //capture mic
 
 float intensity; // value in range 0 to 1
 

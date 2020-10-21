@@ -1,13 +1,13 @@
 
 class MyPoint{
   
-  float x,y;
+  float x,y; //could make private but not common in our case
   float size; 
   color c;
   
   //Constructor
   public MyPoint(float x, float y, float size, color c){
-    this.x = x;
+    this.x = x;  //takes values set when you create a new object
     this.y = y;
     this.size = size;
     this.c = c;
